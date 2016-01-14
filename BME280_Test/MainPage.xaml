@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="BME280_Test.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BME280_Test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="0,200,0,0">
+            <TextBlock x:Name="tytleLabel" HorizontalAlignment="Center" Text="BME280 Enviromental Sensor Reading" FontSize="30" Foreground="Blue" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock x:Name="tempLabel" Width="200" Text="Temperature: " FontSize="30"/>
+                <TextBlock x:Name="tempValue" Width="200" Text=""  FontSize="30"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock x:Name="humLabel" Width="200" Text="Humidity: " FontSize="30"/>
+                <TextBlock x:Name="humValue" Width="200" Text="" FontSize="30"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock x:Name="PressLabel" Width="200" Text="Pressure: " FontSize="30"/>
+                <TextBlock x:Name="pressValue" Width="200" Text="" FontSize="30"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
