@@ -1,4 +1,7 @@
-﻿using System;
+﻿// MIT License
+// Original Source: https://github.com/ms-iot/adafruitsample/tree/master/Lesson_203V2/FullSolution
+
+using System;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using Windows.Devices.Enumeration;
