@@ -1,5 +1,5 @@
 ﻿// MIT License
-// Original Source: https://github.com/ms-iot/adafruitsample/tree/master/Lesson_203V2/FullSolution
+// Original Source: https://github.com/ms-iot/adafruitsample/tree/master/Lesson_203/FullSolution
 
 using System;
 using System.Threading.Tasks;
